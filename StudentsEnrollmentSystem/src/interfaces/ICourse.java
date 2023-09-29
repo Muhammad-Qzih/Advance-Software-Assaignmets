@@ -1,8 +1,14 @@
 package interfaces;
 
-public interface ICourse {
-    void addStudent(IStudent student );
+import java.util.List;
 
-    void deleteStudent(int Id);
+public interface ICourse {
+    void addStudent(IStudent student);
+
+    void deleteStudent(IStudent student);
+
+    String getTitle();
+
+    List<IStudent> getStudents();
 
 }
