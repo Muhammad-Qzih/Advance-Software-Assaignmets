@@ -74,5 +74,8 @@ user1 = new Staff()
 
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/dc6c94d1-b188-4fd9-a9a9-65ae85248b2b)
 
+### ----------------------------------------------------------------------------------------------------------------------------
+
+ ## I tried as much as possible to apply things correctly , Please, if there are any errors in the solution, provide me with comments so that I can learn from my mistakes
 
 
