@@ -27,3 +27,11 @@ These classes helped me achieve the SRP (Single Responsibility Principle)  .
   
   - Another important thing here is that I have overridden the getDetails method For example, manger has different details from director or staff. And in this methode I used the static method of the Details class, which is getDetailsUsers, which takes an array of users and returns their details! This is to make the getDetails method better in terms of understanding and reading 
 ### ----------------------------------------------------------------------------------------------------------------------------
+
+### How did I solve the report template problem?
+- Here are simply a lot of solutions, especially factory design patterns and strategy! In particular, they move forward with many SOLID principles Especially open closed! Simply put, how can you make creating or adding a report easy and flexible! I decided to use something close to the strategy design pattern! Look at this diagram:
+
+
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/e4e75b45-9fd4-40ea-9d02-4cb61f6bd0e9)
+
+-  There is also a very important class! and is it TemplateReportGenerator It contains generateTemplateReport methode Where he creates a template containing the reports he wants for the user! For example, the user can create a template that contains two reports or one report! Or any number of reports he wants! According to the types of reports we have!!! Look at the following codes:
