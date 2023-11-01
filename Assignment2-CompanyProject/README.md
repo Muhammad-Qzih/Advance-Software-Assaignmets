@@ -47,5 +47,32 @@ These classes helped me achieve the SRP (Single Responsibility Principle)  .
 
 - The databse on the following methdes: addUser, connect, disConnect Add user to database or connect user to the database or disconnect!, so that the user cannot do anything unless he is connected to the database!, and so on.
 
+### ----------------------------------------------------------------------------------------------------------------------------
+### How did I achieve the SRP?
+- Each class focuses on one goal only By creating other classes such as: Validators class, Budget class, etc .
+  
+
+### How did I  achieve the Open Close?
+- Well that strategy design pattern helped me in reports as we will add new reports in the future without making any modifications! that is easy in terms of maintenance .
+
+
+### How did I achieve the Dependency Inversion? 
+- This is done by using the reportable interface so that all sub classes depend on it and not on concrete implementations!.
+
+## How did I achieve  the LSP ? 
+- The Liskov Substitution Principle states that objects of a derived class should be able to replace objects of the base class without affecting the correctness of the program.For example, if you use this:
+
+User user1 = new User()
+
+So this should work:
+user1 = new Staff()
+
+### ----------------------------------------------------------------------------------------------------------------------------
+
+### Complete UML diagram:
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/d87082dc-5fe2-4618-838a-ceca3f87a499) ,
+
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/dc6c94d1-b188-4fd9-a9a9-65ae85248b2b)
+
 
 
