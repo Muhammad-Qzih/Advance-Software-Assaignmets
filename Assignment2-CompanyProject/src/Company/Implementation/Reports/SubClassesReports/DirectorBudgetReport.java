@@ -8,8 +8,8 @@ import Company.Implementation.User;
 public class DirectorBudgetReport implements Reportable {
     @Override
     public String Report(User user) {
-        Director manger = (Director) user;
+        Director director = (Director) user;
         return    "Name:" + user.getName() + " ID:" + user.getId() + " Budget:" +
-                Budget.calculateBudget(manger.getStaffs()) + Budget.calculateBudget(manger.getMangers());
+                Budget.calculateBudget(director.getStaffs()) + Budget.calculateBudget(director.getMangers());
     }
 }
