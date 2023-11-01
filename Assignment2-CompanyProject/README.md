@@ -35,3 +35,17 @@ These classes helped me achieve the SRP (Single Responsibility Principle)  .
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/e4e75b45-9fd4-40ea-9d02-4cb61f6bd0e9)
 
 -  There is also a very important class! and is it TemplateReportGenerator It contains generateTemplateReport methode Where he creates a template containing the reports he wants for the user! For example, the user can create a template that contains two reports or one report! Or any number of reports he wants! According to the types of reports we have!!! Look at the following codes:
+
+
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/ceab59cb-a6ea-4c2e-997b-014f4928dd08) , ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/f6ac30e0-b7d3-47c0-9fa9-01a1f67f11f2)
+
+### ----------------------------------------------------------------------------------------------------------------------------
+
+### How did I solve the DabaseClass problem?
+
+- Well, it is clear that we do not need more than object in order to operate the database, so I used the singleton design pattern, which helped me with with that.
+
+- The databse on the following methdes: addUser, connect, disConnect Add user to database or connect user to the database or disconnect!, so that the user cannot do anything unless he is connected to the database!, and so on.
+
+
+
