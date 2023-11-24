@@ -50,6 +50,7 @@ How did you apply the observer  design pattern?
 
 ### There is a relationship between the StatisticsDisplay and WeatherDataSubject, where I created an object of type WeatherDataSubject in the StatisticsDisplay so that I can access the special obervers in the WeatherDataSubject so that I can calculate the statistics.
 
+###How did I integrate between the observer pattern and the decorator pattern?
 ### I considered the observer design pattern to be the cocreteComponent! as observers are the components that we want to add to! here I did this by extending the IWeatherSystemInterface to the IWeatherDataObserver therefore, I can now deal with observers as if they were cocreteComponents in the decorators pattern!!
 ### I also benefited from the principle of inheritance here, as every observer can use getInformation!! look at the following pictures:
 
