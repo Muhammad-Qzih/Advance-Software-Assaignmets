@@ -12,3 +12,14 @@ Where I created the:
 It has clasess
 Necessary to implement the strategy pattern
 This helped me to make the user convert temperature from Celsius to Fahrenheit or vice versa in an easy and flexible way, i chose the strategy method this is to avoid problems such as breaking the open close! assuming that units other than Celsius and Fahrenheit can be added! . 
+
+### ----------------------------------------------------------------------------------------------------------------------------
+### After I explained the project structure, I will now move to the important points So I will explain how I solved these points through questions and answers!
+### ----------------------------------------------------------------------------------------------------------------------------
+
+## How did you apply the decorator design pattern?
+How did you apply the decorator design pattern?
+-  In this pattern we know that we have main decorators and extra decorators. In the extra decorators they are PrecipitationDecorator, TemperatureUnitsDecorator,WindSpeedDecorator.All of these decoratos extend the WeatherDecoratorAbstract which contains an important method, which is getDecorator this method returns the main object to which we want to add additional information. There is also a very important interface, which is the IWeatherSystemInterface Which is considered the pillar of our decorator desing pattern! it contains a very important method, which is getInformation() where the extra decorators do the override for it!
+## Look at the following class diagram, which illustrates the decoration design pattern:
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/615fa82c-3797-4e02-96cb-663a90d1d88f)
+
