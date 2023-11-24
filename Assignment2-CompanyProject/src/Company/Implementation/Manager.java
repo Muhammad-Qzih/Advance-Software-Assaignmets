@@ -1,6 +1,6 @@
 package Company.Implementation;
 
-import Company.DetailsUsers.Details;
+import Company.Helpers.DetailsUsers.Details;
 
 import java.util.List;
 
