@@ -29,4 +29,7 @@ Look at the following images for the code:
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/16b377f1-2d79-436c-a123-89e3d9cb1a9e)
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/c3adc187-fc07-4ca5-a9aa-9af599993a94)
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/dccd28be-1ee2-4c07-a35e-a4369f2e8ace)
+### ----------------------------------------------------------------------------------------------------------------------------
 
+### Why did you use the strategy pattern for temperature conversion?
+- This pattern helped me avoid breaking the open close principle where if we think about it the user wants to convert from celsius to fahrenheit or vice versa , But what if we want to add another unit in the future? it is a good solution to use this pattern!
