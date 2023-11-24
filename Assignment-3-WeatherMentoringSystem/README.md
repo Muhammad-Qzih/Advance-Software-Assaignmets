@@ -65,7 +65,8 @@ How did you apply the observer  design pattern?
 ### Complete class diagram: 
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/94f92ce4-bfe2-4fbb-9771-8c6cf6d3b95f)
 ### -----------------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/690ac979-9b4f-4afa-be36-f567fb19a6a4)
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/1b5a6771-8eeb-4f7f-a0ca-d6e09949096b)
+
 ### -----------------------------------------------------------------------------------------------------------------------------
 
 ### I tried as much as possible to apply things correctly , Please, if there are any errors in the solution, provide me with comments so that I can learn from my mistakes
