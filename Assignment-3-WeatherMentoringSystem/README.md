@@ -49,3 +49,23 @@ How did you apply the observer  design pattern?
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/f1f8f21e-4d85-433d-b94f-9d331dbfa540)
 
 ### There is a relationship between the StatisticsDisplay and WeatherDataSubject, where I created an object of type WeatherDataSubject in the StatisticsDisplay so that I can access the special obervers in the WeatherDataSubject so that I can calculate the statistics.
+
+### I considered the observer design pattern to be the cocreteComponent! as observers are the components that we want to add to! here I did this by extending the IWeatherSystemInterface to the IWeatherDataObserver therefore, I can now deal with observers as if they were cocreteComponents in the decorators pattern!!
+### I also benefited from the principle of inheritance here, as every observer can use getInformation!! look at the following pictures:
+
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/a30415c4-7caf-48ef-abcb-7fc92fde3086)
+
+## In the CurrentConditionsDisplay class: 
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/85933628-daaf-4a4d-a158-e2680e85282d)
+
+## In the StatisticsDisplay class:
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/abdbf1f4-03e5-437d-9a59-a5f789b20f9e)
+
+### Complete class diagram: 
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/94f92ce4-bfe2-4fbb-9771-8c6cf6d3b95f)
+### -----------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/690ac979-9b4f-4afa-be36-f567fb19a6a4)
+### -----------------------------------------------------------------------------------------------------------------------------
+
+### I tried as much as possible to apply things correctly , Please, if there are any errors in the solution, provide me with comments so that I can learn from my mistakes
+
