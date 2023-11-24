@@ -41,3 +41,11 @@ Look at the following images for the code:
 In main : 
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/38e817ea-2cfe-4836-9589-369d8e35b504)
  
+### ----------------------------------------------------------------------------------------------------------------------------
+How did you apply the observer  design pattern?
+- In this pattern, the observers are considered the cocreteComponents for the above decorator pattern!
+- In this Pattern we have IWeatherDataSubject interface and his concrete and we have the IWeatherDataObserver also his concrete and we have an observer etc.. i will not say much about it because it is clear and does not require explanation but I will talk about some important points in it.
+##  Look at the following class diagram, which illustrates the observer design pattern:
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/f1f8f21e-4d85-433d-b94f-9d331dbfa540)
+
+### There is a relationship between the StatisticsDisplay and WeatherDataSubject, where I created an object of type WeatherDataSubject in the StatisticsDisplay so that I can access the special obervers in the WeatherDataSubject so that I can calculate the statistics.
