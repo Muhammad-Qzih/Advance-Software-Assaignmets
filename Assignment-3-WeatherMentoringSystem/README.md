@@ -1,4 +1,4 @@
-![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/e62c45f7-20cb-4668-93cb-4a27eadb409d)#### In this explanation, I will focus on the important points in the solution I made and how I solved the requirements .
+#### In this explanation, I will focus on the important points in the solution I made and how I solved the requirements .
 
 #### In the beginning, I will explain through the UML diagram in general, Then I will explain how I applied the design patterns.
 
