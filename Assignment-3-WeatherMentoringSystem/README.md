@@ -31,5 +31,8 @@ Look at the following images for the code:
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/dccd28be-1ee2-4c07-a35e-a4369f2e8ace)
 ### ----------------------------------------------------------------------------------------------------------------------------
 
-### Why did you use the strategy pattern for temperature conversion?
-- This pattern helped me avoid breaking the open close principle where if we think about it the user wants to convert from celsius to fahrenheit or vice versa , But what if we want to add another unit in the future? it is a good solution to use this pattern!
+### Why did i use the strategy pattern for temperature conversion?
+- This pattern helped me avoid breaking the open close principle where if we think about it the user wants to convert from celsius to fahrenheit or vice versa , But what if we want to add another unit in the future? it is a good solution to use this pattern! This is the class diagram of the strategy design pattern:
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/04450341-53b3-4bea-819c-1b9ac453057a)
+
+
