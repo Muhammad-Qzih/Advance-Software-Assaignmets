@@ -1,4 +1,4 @@
-#### In this explanation, I will focus on the important points in the solution I made and how I solved the requirements .
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/e62c45f7-20cb-4668-93cb-4a27eadb409d)#### In this explanation, I will focus on the important points in the solution I made and how I solved the requirements .
 
 #### In the beginning, I will explain through the UML diagram in general, Then I will explain how I applied the design patterns.
 
@@ -22,4 +22,11 @@ How did you apply the decorator design pattern?
 -  In this pattern we know that we have main decorators and extra decorators. In the extra decorators they are PrecipitationDecorator, TemperatureUnitsDecorator,WindSpeedDecorator.All of these decoratos extend the WeatherDecoratorAbstract which contains an important method, which is getDecorator this method returns the main object to which we want to add additional information. There is also a very important interface, which is the IWeatherSystemInterface Which is considered the pillar of our decorator desing pattern! it contains a very important method, which is getInformation() where the extra decorators do the override for it!
 ## Look at the following class diagram, which illustrates the decoration design pattern:
 ![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/615fa82c-3797-4e02-96cb-663a90d1d88f)
+
+### What does the getInformation() method do?
+- This method returns the information contained in the cocreteComponent and concreteDecorator!, For example, the user chose to display statisticsDisplay he wanted to add TemperatureUnits to it this method fetches the relevant information in the statisticsDisplay from getDecorators and add the TemperatureUnits inforamtion to it.
+Look at the following images for the code:
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/16b377f1-2d79-436c-a123-89e3d9cb1a9e)
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/c3adc187-fc07-4ca5-a9aa-9af599993a94)
+![image](https://github.com/Muhammad-Qzih/Advance-Software-Assaignmets/assets/116916960/dccd28be-1ee2-4c07-a35e-a4369f2e8ace)
 
