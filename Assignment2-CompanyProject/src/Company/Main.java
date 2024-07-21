@@ -53,7 +53,6 @@ public class Main {
         System.out.println(TemplateManagerReports.generateTemplateReport(manger));
 
         TemplateReportsGenerator templateDirectorReports = new TemplateReportsGenerator(new DirectorReportStaffs(), new DirectorBudgetReport());
-        System.out.println("************************************************************");
         System.out.println(templateDirectorReports.generateTemplateReport(director));
 
     }

@@ -11,7 +11,7 @@ public class Validator {
         return object == null;
     }
 
-    public static boolean managerOrStaffAreExists(Map<Integer, User> users, User user) {
+    public static boolean userIsExists(Map<Integer, User> users, User user) {
         return users.containsKey(user.getId());
     }
 
@@ -23,7 +23,7 @@ public class Validator {
             return false;
         }
 
-        if (Validator.managerOrStaffAreExists(users, user)) {
+        if (Validator.userIsExists(users, user)) {
             MessagePrinter.userExists();
             return false;
         }

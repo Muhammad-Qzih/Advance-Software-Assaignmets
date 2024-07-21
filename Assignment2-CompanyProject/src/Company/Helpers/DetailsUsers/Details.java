@@ -1,4 +1,4 @@
-package Company.DetailsUsers;
+package Company.Helpers.DetailsUsers;
 
 import Company.Implementation.User;
 
